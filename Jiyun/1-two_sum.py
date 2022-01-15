@@ -17,14 +17,14 @@ class Solution(object):
 #                     return [new_nums[i][1], new_nums[j][1]]
 
 
-# First trial
+# First trial (O(n^2))
 
 #         for i in range(len(nums) - 1):
 #             for j in range(i + 1, len(nums)):
 #                 if nums[i] + nums[j] == target:
 #                     return [i, j]
 
-# Second trial refer to other's solution 
+# Second trial refer to other's solution (O(n))
         seen = {}
         for i, n in enumerate(nums):
             m = target - n
