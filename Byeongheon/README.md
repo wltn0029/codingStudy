@@ -4,8 +4,8 @@
 
 Algorithm|Bestcase|Averagecase|Worstcase
 ---|---|---|---|
-Selection|θ(n²)|θ(n²)|θ(n²)|
-Intersection|θ(n)|θ(n²)|θ(n²)|
-Merge|θ(nlgn)|θ(nlgn)|θ(nlgn)|
-Heap|θ(n)||θ(nlgn)|
-Quick|θ(nlgn)|θ(nlgn)|θ(n²)|
+Selection|**θ(n²)**|θ(n²)|θ(n²)|
+Intersection|**θ(n)**|θ(n²)|θ(n²)|
+Merge|**θ(nlgn)**|θ(nlgn)|θ(nlgn)|
+Heap|**θ(n)**|~~θ(n)~~|θ(nlgn)|
+Quick|**θ(nlgn)**|θ(nlgn)|θ(n²)|
